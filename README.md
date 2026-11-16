@@ -58,4 +58,4 @@ clang -O2 -fobjc-arc -o reanchor src/reanchor.m -framework Cocoa -framework Core
 
 ## Notes
 
-This is a working snapshot of a personal system, not a packaged product. The daemons expect Accessibility / Input Monitoring permission, some paths and config files from the larger setup they came from (a central `bindings.json`, `/tmp` handoff files, companion Fusion add-ins in [fusion-360-tools](https://github.com/JoshCallis/fusion-360-tools)), and macOS on Apple Silicon. `MultitouchSupport` is a private Apple framework.
+This is a working snapshot of a personal system, not a packaged product. The daemons expect Accessibility / Input Monitoring permission, some paths and config files from the larger setup they came from (a central `bindings.json`, `/tmp` handoff files, companion Fusion add-ins in [fusion-360-tools](https://github.com/JoshCallis/Fusion-Customisation)), and macOS on Apple Silicon. `MultitouchSupport` is a private Apple framework.
